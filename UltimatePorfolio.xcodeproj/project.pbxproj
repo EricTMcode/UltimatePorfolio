@@ -13,6 +13,8 @@
 		0786D2D92A56D9CE009CABC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0786D2D82A56D9CE009CABC0 /* Preview Assets.xcassets */; };
 		0786D2E12A56DCB3009CABC0 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2DF2A56DCB3009CABC0 /* Main.xcdatamodeld */; };
 		0786D2E32A56DEF3009CABC0 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2E22A56DEF3009CABC0 /* DataController.swift */; };
+		0786D2E62A56E754009CABC0 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2E52A56E754009CABC0 /* SidebarView.swift */; };
+		0786D2E82A56E75A009CABC0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2E72A56E75A009CABC0 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		0786D2E02A56DCB3009CABC0 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		0786D2E22A56DEF3009CABC0 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		0786D2E42A56E5E6009CABC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0786D2E52A56E754009CABC0 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		0786D2E72A56E75A009CABC0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,10 @@
 			children = (
 				0786D2E42A56E5E6009CABC0 /* Info.plist */,
 				0786D2D02A56D9CD009CABC0 /* UltimatePorfolioApp.swift */,
-				0786D2D22A56D9CD009CABC0 /* ContentView.swift */,
 				0786D2E22A56DEF3009CABC0 /* DataController.swift */,
+				0786D2D22A56D9CD009CABC0 /* ContentView.swift */,
+				0786D2E52A56E754009CABC0 /* SidebarView.swift */,
+				0786D2E72A56E75A009CABC0 /* DetailView.swift */,
 				0786D2DF2A56DCB3009CABC0 /* Main.xcdatamodeld */,
 				0786D2D42A56D9CE009CABC0 /* Assets.xcassets */,
 				0786D2D62A56D9CE009CABC0 /* UltimatePorfolio.entitlements */,
@@ -148,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0786D2E12A56DCB3009CABC0 /* Main.xcdatamodeld in Sources */,
+				0786D2E82A56E75A009CABC0 /* DetailView.swift in Sources */,
 				0786D2E32A56DEF3009CABC0 /* DataController.swift in Sources */,
+				0786D2E62A56E754009CABC0 /* SidebarView.swift in Sources */,
 				0786D2D32A56D9CD009CABC0 /* ContentView.swift in Sources */,
 				0786D2D12A56D9CD009CABC0 /* UltimatePorfolioApp.swift in Sources */,
 			);
