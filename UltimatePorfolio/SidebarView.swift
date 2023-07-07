@@ -39,7 +39,7 @@ struct SidebarView: View {
         .toolbar {
             Button {
                 dataController.deleteAll()
-                dataController.createSampleData()
+                dataController.createSampleData() 
             } label: {
                 Label("ADD SAMPLES", systemImage: "flame")
             }
