@@ -17,6 +17,7 @@
 		0786D2E82A56E75A009CABC0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2E72A56E75A009CABC0 /* DetailView.swift */; };
 		0786D2EA2A56E8C2009CABC0 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2E92A56E8C2009CABC0 /* Filter.swift */; };
 		078B034C2A66B25800883AAB /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B034B2A66B25800883AAB /* Issue-CoreDataHelpers.swift */; };
+		078B034E2A66B39700883AAB /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B034D2A66B39700883AAB /* Tag-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0786D2E72A56E75A009CABC0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0786D2E92A56E8C2009CABC0 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		078B034B2A66B25800883AAB /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		078B034D2A66B39700883AAB /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				0786D2E72A56E75A009CABC0 /* DetailView.swift */,
 				0786D2E92A56E8C2009CABC0 /* Filter.swift */,
 				078B034B2A66B25800883AAB /* Issue-CoreDataHelpers.swift */,
+				078B034D2A66B39700883AAB /* Tag-CoreDataHelpers.swift */,
 				0786D2DF2A56DCB3009CABC0 /* Main.xcdatamodeld */,
 				0786D2D42A56D9CE009CABC0 /* Assets.xcassets */,
 				0786D2D62A56D9CE009CABC0 /* UltimatePorfolio.entitlements */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0786D2EA2A56E8C2009CABC0 /* Filter.swift in Sources */,
+				078B034E2A66B39700883AAB /* Tag-CoreDataHelpers.swift in Sources */,
 				0786D2E12A56DCB3009CABC0 /* Main.xcdatamodeld in Sources */,
 				078B034C2A66B25800883AAB /* Issue-CoreDataHelpers.swift in Sources */,
 				0786D2E82A56E75A009CABC0 /* DetailView.swift in Sources */,
