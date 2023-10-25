@@ -25,11 +25,21 @@ class DataController: ObservableObject {
             container.persistentStoreDescriptions.first?.url = URL(filePath: "/dev/null")
         }
         
+        container.viewContext.automaticallyMergesChangesFromParent = true
+        container.viewContext.mergePolicy = NSMergePolicy.mergeByPropertyStoreTrump
+        
+        container.persistentStoreDescriptions.first?.setOption(true as NSNumber, forKey: NSPersistentStoreRemoteChangeNotificationPostOptionKey)
+        NotificationCenter.default.addObserver(forName: .NSPersistentStoreRemoteChange, object: container.persistentStoreCoordinator, queue: .main, using: remoteSotreChanged)
+        
         container.loadPersistentStores { storeDescriton, error in
             if let error {
                 fatalError("Fatal error loading store: \(error.localizedDescription)")
             }
         }
+    }
+    
+    func remoteSotreChanged(_ notification: Notification) {
+        objectWillChange.send()
     }
     
     func createSampleData() {
