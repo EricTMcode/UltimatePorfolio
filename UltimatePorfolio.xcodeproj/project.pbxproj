@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0707DDA52AE93CF800CC63C8 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707DDA42AE93CF800CC63C8 /* IssueRow.swift */; };
 		0786D2D12A56D9CD009CABC0 /* UltimatePorfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2D02A56D9CD009CABC0 /* UltimatePorfolioApp.swift */; };
 		0786D2D32A56D9CD009CABC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0786D2D22A56D9CD009CABC0 /* ContentView.swift */; };
 		0786D2D52A56D9CE009CABC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0786D2D42A56D9CE009CABC0 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0707DDA42AE93CF800CC63C8 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		0786D2CD2A56D9CD009CABC0 /* UltimatePorfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimatePorfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0786D2D02A56D9CD009CABC0 /* UltimatePorfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimatePorfolioApp.swift; sourceTree = "<group>"; };
 		0786D2D22A56D9CD009CABC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				0786D2D02A56D9CD009CABC0 /* UltimatePorfolioApp.swift */,
 				0786D2E22A56DEF3009CABC0 /* DataController.swift */,
 				0786D2D22A56D9CD009CABC0 /* ContentView.swift */,
+				0707DDA42AE93CF800CC63C8 /* IssueRow.swift */,
 				0786D2E52A56E754009CABC0 /* SidebarView.swift */,
 				0786D2E72A56E75A009CABC0 /* DetailView.swift */,
 				0786D2E92A56E8C2009CABC0 /* Filter.swift */,
@@ -170,6 +173,7 @@
 				0786D2E32A56DEF3009CABC0 /* DataController.swift in Sources */,
 				0786D2E62A56E754009CABC0 /* SidebarView.swift in Sources */,
 				0786D2D32A56D9CD009CABC0 /* ContentView.swift in Sources */,
+				0707DDA52AE93CF800CC63C8 /* IssueRow.swift in Sources */,
 				0786D2D12A56D9CD009CABC0 /* UltimatePorfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
